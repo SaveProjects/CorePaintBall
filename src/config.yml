@@ -1,0 +1,66 @@
+#
+# Fichier configuration de jeux par Edmine Network.
+# Dev: N12cf
+# Version: 0.1
+#
+
+#Activé ou non les équipes (attention! pas tous les jeux prennes cette fonction en compte)
+Equipe:
+  Statut: true
+ 
+#Ici, activez le mode de votre choix (attention! activez seulement 1 mode)
+#Equipes disponibles: (2vs4, 4vs4, 6vs4).
+Mode:
+  2vs4: true
+  4vs4: false
+  6vs4: false
+#Gestion des timers du jeu.
+Timers:
+  start: 30
+  startFull: 10
+  game: 600  
+#Gestion des cartes du jeu.
+Cartes:
+  italy:
+    specSpawn:
+      x: -0.5
+      y: 100.0
+      z: -52.5
+      f: -0.5
+      p: 30.0
+    redSpawn:
+      x: -56.5
+      y: 70.0
+      z: -21.5
+      f: -90.5
+      p: -3
+    blueSpawn:
+      x: 53.5
+      y: 71.0
+      z: -2.5
+      f: -180.0
+      p: -0
+    yellowSpawn:
+      x: -0.5
+      y: 75.0
+      z: 52.5
+      f: -173.5
+      p: -0.0
+    greenSpawn:
+      x: -6.5
+      y: 68.0
+      z: -87.5
+      f: -51.1
+      p: -2.0
+    orangeSpawn:
+      x: 47.5
+      y: 68.0
+      z: -64
+      f: -48.5
+      p: -0.5
+    pinkSpawn:
+      x: -34.5
+      y: 74.0
+      z: 13.5
+      f: -98.5
+      p: -2.0
